@@ -5,4 +5,66 @@ output: html_document
 
 This page contains all my education and experience.
 
+## Education
+
+**Columbia University Mailman School of Public Health, New York, NY** 
+
+_August 2024-Present_
+
+Master of Public Health, Epidemiology
+Certificate in Applied Biostatistics and Public Health Data Science
+
+**University of Pittsburgh, Pittsburgh, PA** 
+
+_August 2019-December 2022_
+
+Bachelor of Science in Biological Sciences, Psychology
+Minor in Chemistry
+
+## Experience
+
+**Robert Wood Johnson University Hospital**, Medical Scribe
+
+_May 2022-Jun 2024; Jun 2021-Nov 2021_ 
+
+* Accurately documented and reported information from clinician-patient encounters to complete EMRs within Epic/Sunrise Clinical Manager by using ICD-10 codes and medical terminology.
+* Accompanied clinicians into patient rooms and transcribed conversations between patient and clinician for Emergency Medicine and Internal Medicine departments; maintained professional demeanor with patients experiencing extreme stress and pain.
+* Collaborated with a range of healthcare providers including physicians, nurses, nurse practitioners, physician assistants, social workers, and medical technicians.
+* Gained knowledge of procedures, hospital workflow, and medical decision-making.
+
+**University of Pittsburgh Medical Center**, Undergraduate Research Assistant
+
+_Jan 2020-Aug 2021_
+
+Department of Pediatrics, Dr. Daniel Weiner
+
+* Analyzed spirometry and lung volumes data in Microsoft Excel and statistical software SPSS to observe a non-specific pulmonary pattern.
+* Analyzed BMI and other diagnostic information to determine criteria for the non-specific pulmonary pattern. 
+* Gained knowledge of clinical research processes such as study design, data collection and analysis, research protocols, and evaluating health outcomes. 
+
+**Ekal USA**, Pre-Medical Intern
+
+_December 2020_
+
+* Virtually connected with a remote, resource-limited village in Gujarat, India to communicate regarding infectious disease and prevention, hygiene, and nutrition.
+* Gained exposure to the Indian healthcare system, sociocultural aspects and determinants of health, and types of alternative medicine.
+
+## Activities
+
+**Clementine Collective**, Vice President
+
+_August 2025-Present_
+
+* Coordinates with club president and Professor Heather Butts to plan meetings and events.
+* Conducts training sessions with club members for clementine deliveries.
+
+## Skills and Certifications
+
+* Competency in Microsoft Office (Access, Excel, Word, PowerPoint).
+* Profiency in R.
+* Working knowledge of SPSS and SAS.
+* Experience with electronic medical record management systems such as Epic, Sunrise Clinical Manager, Cerner.
+* Certified Clinical Medical Assistant (Achieved 2021).
+
+
 To go back to the homepage, click [here](index.html).

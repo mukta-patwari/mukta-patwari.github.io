@@ -9,7 +9,7 @@ output:
 # Welcome to my personal website!
 I am a second-year MPH student at Columbia Mailman School of Public Health in Epidemiology with a certificate in Applied Biostatistics and Public Health Data Science.
 
-I am highly interested in clinical research, as well as lifecourse epidemiology and social determinants of health. I am currently working on my Masters' thesis, which is focused on mothers' return to school and its effects on physical and mental health.
+I am highly interested in clinical research, as well as lifecourse epidemiology and social determinants of health. I am currently working on my Masters' thesis, which is a data analysis project focused on mothers' return to school and its effects on physical and mental health.
 
 My hobbies include running, reading, knitting, and baking. I'm hoping to run my first race at the end of 2025!
 
