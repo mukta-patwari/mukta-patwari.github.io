@@ -283,6 +283,12 @@ $(document).ready(function () {
 </div>
 
 
+<p>Data cleaning and tidying</p>
+<pre class="r"><code>data(&quot;instacart&quot;)
+
+instacart =
+  instacart %&gt;% 
+  janitor::clean_names()</code></pre>
 <p>Scatterplot:</p>
 <p>Box plots:</p>
 <p>Bar plot:</p>

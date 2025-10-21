@@ -9,6 +9,7 @@ output: html_document
 _August 2024-Present_
 
 Master of Public Health, Epidemiology
+
 Certificate in Applied Biostatistics and Public Health Data Science
 
 **University of Pittsburgh, Pittsburgh, PA** 
@@ -16,6 +17,7 @@ Certificate in Applied Biostatistics and Public Health Data Science
 _August 2019-December 2022_
 
 Bachelor of Science in Biological Sciences, Psychology
+
 Minor in Chemistry
 
 ## Experience
