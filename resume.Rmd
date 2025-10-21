@@ -1,0 +1,8 @@
+---
+title: "Resume"
+output: html_document
+---
+
+This page contains all my education and experience.
+
+To go back to the homepage, click [here](index.html).

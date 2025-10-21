@@ -1,0 +1,16 @@
+---
+title: "Mukta Patwari's website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# About me:
+I am a second-year MPH student at Columbia Mailman School of Public Health in Epidemiology with a certificate in Applied Biostatistics and Public Health Data Science.
+
+I am highly interested in clinical research, as well as lifecourse epidemiology and social determinants of health. I am currently working on my Masters' thesis, which is focused on mothers' return to school and its effects on physical and mental health.
+
+For further details about my education and experience, see my [resume](resume.html).
+
+[Here](dashboard.html) is the flexdashboard using plotly for the instacart dataset.
