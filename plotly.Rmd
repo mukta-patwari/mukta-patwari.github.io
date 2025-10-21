@@ -1,0 +1,34 @@
+---
+title: "plotly"
+author: "Mukta Patwari"
+date: "2025-10-21"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+Scatterplot:
+
+```{r}
+
+```
+
+Box plots:
+
+```{r}
+
+```
+
+Bar plot:
+
+```{r}
+
+```
+
