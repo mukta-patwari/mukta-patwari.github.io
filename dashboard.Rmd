@@ -1,8 +1,0 @@
----
-title: "Dashboard"
-output: html_document
----
-
-This contains my dashboard for the instacart dataset.
-
-To go back to the homepage, click [here](index.html).
