@@ -41,6 +41,7 @@ Box plot; restaurants in Manhattan with pending grades and their scores
 rest_inspec %>%
   filter(
     boro == "Manhattan",
+    cuisine_description == "Café/Coffee/Tea",
     grade == "P"
   ) %>%
   mutate(
