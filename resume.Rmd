@@ -16,7 +16,7 @@ Certificate in Applied Biostatistics and Public Health Data Science
 
 _August 2019-December 2022_
 
-Bachelor of Science in Biological Sciences, Psychology
+Bachelor of Science, Biological Sciences & Psychology
 
 Minor in Chemistry
 
@@ -28,7 +28,7 @@ Department of Epidemiology, Dr. Sarah Tom, MPH, PhD
 
 _June 2025-September 2025_
 
-* Conducted data analysis on demographics and education status in mothers to observe midlife health outcomes using R.
+* Conducted data analysis on demographics and education status in mothers to observe midlife health outcomes.
 * Developed proficiency in R programming for exploratory data analysis and visualization. 
 * Conducted literature reviews and gained an understanding of the scientific literature, study designs, data collection, and research protocols.
 * Gained a deeper understanding of the principles of life-course epidemiology and social determinants of health.
@@ -66,6 +66,7 @@ _December 2020_
 
 _August 2025-Present_
 
+* Coordinates with club president and faculty advisor to plan meetings and events.
 * Conducts training sessions with club members for clementine deliveries and food initiatives.
 * Collaborates with organizations such as Fresh Youth Initiatives and Staten Island Hunger Task Force to address food insecurity throughout New York City communities.
 
@@ -73,7 +74,6 @@ _August 2025-Present_
 
 * Competency in Microsoft Office (Access, Excel, Word, PowerPoint).
 * Working knowledge of R, SAS and experience with SPSS. 
-* Working knowledge of SPSS and SAS.
 * Experience with electronic medical record management systems such as Epic, Sunrise Clinical Manager, Cerner.
 * Certified Clinical Medical Assistant (Achieved 2021).
 
