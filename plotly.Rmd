@@ -50,27 +50,29 @@ rest_inspec %>%
   plot_ly(
     y = ~score, color = ~dba,
     type = "box",
-    colors = "viridis"
-  )
+    colors = "viridis",
+    width = 650, height = 300
+  ) %>% 
+  layout(
+    xaxis = list(title = 'Name of Restaurant/Entity'), 
+    yaxis = list(title = 'Score')
+    )
 ```
 
-Bar plot
+Frequency of grades for restaurants in Manhattan
 
 ```{r}
 rest_inspec %>%
   filter(
     boro == "Manhattan",
-    cuisine_description == "Café/Coffee/Tea",
-    grade == "A"
   ) %>% 
-  count(dba) %>% 
+  count(grade) %>% 
   mutate(
-    dba = fct_reorder(dba, n)
+    grade = fct_reorder(grade, n)
   ) %>% 
   plot_ly(
-    x = ~dba, y = ~n, color = ~dba,
+    x = ~grade, y = ~n, color = ~grade,
     type = "bar",
     colors = "viridis"
   )
 ```
-
