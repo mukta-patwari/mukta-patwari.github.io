@@ -17,4 +17,4 @@ My hobbies include running, reading, knitting, and baking. I'm hoping to run my 
 For further details about my education and experience, see my [resume](resume.html).
 
 # NYC Restaurant Inspections Dashboard
-[Here](dashboard.html) is the flexdashboard using plotly for the NYC Restaurant Inspections dataset.
+[Here](dashboard.html) is the flexdashboard using plotly for the NYC Restaurant Inspections dataset, as an example of an assignment I've done in Data Science I.
