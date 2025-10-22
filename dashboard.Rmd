@@ -1,0 +1,89 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+
+```
+
+```{r}
+library(p8105.datasets)
+
+data("rest_inspec")
+
+rest_inspec =
+  rest_inspec %>% 
+  janitor::clean_names() %>%
+  drop_na()
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Mapping latitude and longitude of restaurants inspected throughout Manhattan
+
+```{r}
+rest_inspec %>%
+   filter(
+    boro == "Manhattan"
+  ) %>% 
+  mutate(
+    label = str_c("Grade: ", grade, "\nScore: ", score)
+  ) %>% 
+  plot_ly(
+    x = ~latitude, y = ~longitude, color = ~grade, text = ~label,
+    type = "scatter", mode = "markers", alpha = 0.5
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Cafe/Coffee/Tea Restaurants in Manhattan with pending grades and their corresponding scores
+
+```{r}
+rest_inspec %>%
+  filter(
+    boro == "Manhattan",
+    cuisine_description == "Café/Coffee/Tea",
+    grade == "P"
+  ) %>%
+  mutate(
+    dba = fct_reorder(dba, score)
+  ) %>% 
+  plot_ly(
+    y = ~score, color = ~dba,
+    type = "box",
+    colors = "viridis"
+  )
+```
+
+### Counts of grades for restaurants in Manhattan
+
+```{r}
+rest_inspec %>%
+  filter(
+    boro == "Manhattan",
+  ) %>% 
+  count(grade) %>% 
+  mutate(
+    grade = fct_reorder(grade, n)
+  ) %>% 
+  plot_ly(
+    x = ~grade, y = ~n, color = ~grade,
+    type = "bar",
+    colors = "viridis"
+  ) %>% 
+  layout(
+    xaxis = list(title = 'Grade'), 
+    yaxis = list(title = 'Count')
+    )
+```

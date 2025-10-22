@@ -26,8 +26,11 @@ Scatterplot of latitude vs. longitude, colored by grade
 
 ```{r}
 rest_inspec %>%
+   filter(
+    boro == "Manhattan"
+  ) %>% 
   mutate(
-    label = str_c("Borough: ", boro, "\nScore: ", score)
+    label = str_c("Grade: ", grade, "\nScore: ", score)
   ) %>% 
   plot_ly(
     x = ~latitude, y = ~longitude, color = ~grade, text = ~label,
@@ -74,5 +77,9 @@ rest_inspec %>%
     x = ~grade, y = ~n, color = ~grade,
     type = "bar",
     colors = "viridis"
-  )
+  ) %>% 
+  layout(
+    xaxis = list(title = 'Grade'), 
+    yaxis = list(title = 'Count')
+    )
 ```
