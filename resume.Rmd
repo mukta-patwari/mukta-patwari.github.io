@@ -22,6 +22,18 @@ Minor in Chemistry
 
 ## Experience
 
+**Columbia Mailman School of Public Health, Department of Epidemiology**, Summer Practicum
+
+Department of Epidemiology, Dr. Sarah Tom, MPH, PhD
+
+_June 2025-September 2025_
+
+* Conducted data analysis on demographics and education status in mothers to observe midlife health outcomes using R.
+* Developed proficiency in R programming for exploratory data analysis and visualization. 
+* Conducted literature reviews and gained an understanding of the scientific literature, study designs, data collection, and research protocols.
+* Gained a deeper understanding of the principles of life-course epidemiology and social determinants of health.
+
+
 **Robert Wood Johnson University Hospital**, Medical Scribe
 
 _May 2022-Jun 2024; Jun 2021-Nov 2021_ 
@@ -54,16 +66,15 @@ _December 2020_
 
 _August 2025-Present_
 
-* Coordinates with club president and Professor Heather Butts to plan meetings and events.
-* Conducts training sessions with club members for clementine deliveries.
+* Conducts training sessions with club members for clementine deliveries and food initiatives.
+* Collaborates with organizations such as Fresh Youth Initiatives and Staten Island Hunger Task Force to address food insecurity throughout New York City communities.
 
 ## Skills and Certifications
 
 * Competency in Microsoft Office (Access, Excel, Word, PowerPoint).
-* Profiency in R.
+* Working knowledge of R, SAS and experience with SPSS. 
 * Working knowledge of SPSS and SAS.
 * Experience with electronic medical record management systems such as Epic, Sunrise Clinical Manager, Cerner.
 * Certified Clinical Medical Assistant (Achieved 2021).
-
 
 To go back to the homepage, click [here](index.html).
