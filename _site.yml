@@ -5,7 +5,7 @@ navbar:
   right:
     - text: "Resume"
       href: resume.html
-    - text: "Dashboard for NYC Restaurant Inspections Data"
+    - text: "NYC Restaurant Inspections Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<msp2210@cumc.columbia.edu>
