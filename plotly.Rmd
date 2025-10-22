@@ -10,17 +10,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
 library(p8105.datasets)
-
 library(plotly)
 ```
 
-Data cleaning and tidying
-
+Loading and importing the data
 ```{r}
-data("instacart")
-
-instacart =
-  instacart %>% 
+noaa_df =
+  read_csv("nynoaadat.csv") %>% 
   janitor::clean_names()
 ```
 

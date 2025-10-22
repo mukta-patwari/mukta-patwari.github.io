@@ -253,7 +253,7 @@ $(document).ready(function () {
   <a href="resume.html">Resume</a>
 </li>
 <li>
-  <a href="dashboard.html">Dashboard for Instacart Data</a>
+  <a href="dashboard.html">Dashboard for NOAA Data</a>
 </li>
 <li>
   <a href="mailto:&lt;msp2210@cumc.columbia.edu&gt;">
@@ -283,12 +283,19 @@ $(document).ready(function () {
 </div>
 
 
-<p>Data cleaning and tidying</p>
-<pre class="r"><code>data(&quot;instacart&quot;)
-
-instacart =
-  instacart %&gt;% 
+<p>Loading and importing the data</p>
+<pre class="r"><code>noaa_df =
+  read_csv(&quot;nynoaadat.csv&quot;) %&gt;% 
   janitor::clean_names()</code></pre>
+<pre><code>## Rows: 2595176 Columns: 7
+## ── Column specification ───────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr  (1): id
+## dbl  (5): prcp, snow, snwd, tmax, tmin
+## date (1): date
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
 <p>Scatterplot:</p>
 <p>Box plots:</p>
 <p>Bar plot:</p>
