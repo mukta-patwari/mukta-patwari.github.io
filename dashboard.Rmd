@@ -87,3 +87,5 @@ rest_inspec %>%
     yaxis = list(title = 'Count')
     )
 ```
+
+To go back to the homepage, click [here](index.html).
