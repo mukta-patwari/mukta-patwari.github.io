@@ -53,3 +53,24 @@ rest_inspec %>%
     colors = "viridis"
   )
 ```
+
+Bar plot
+
+```{r}
+rest_inspec %>%
+  filter(
+    boro == "Manhattan",
+    cuisine_description == "Café/Coffee/Tea",
+    grade == "A"
+  ) %>% 
+  count(dba) %>% 
+  mutate(
+    dba = fct_reorder(dba, n)
+  ) %>% 
+  plot_ly(
+    x = ~dba, y = ~n, color = ~dba,
+    type = "bar",
+    colors = "viridis"
+  )
+```
+
