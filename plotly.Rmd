@@ -13,7 +13,7 @@ library(plotly)
 data("rest_inspec")
 ```
 
-Tidying to businesses in Manhattan
+Tidying
 
 ```{r}
 rest_inspec =
@@ -35,3 +35,17 @@ rest_inspec %>%
   )
 ```
 
+Box plot; restaurants in Manhattan with pending grades and their scores
+
+```{r}
+rest_inspec %>%
+  filter(
+    boro == "Manhattan",
+    grade == "P"
+  ) %>% 
+  plot_ly(
+    y = ~score, color = ~dba,
+    type = "box",
+    colors = "viridis"
+  )
+```
