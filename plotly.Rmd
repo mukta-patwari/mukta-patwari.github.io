@@ -1,0 +1,37 @@
+---
+title: "plotly"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+data("rest_inspec")
+```
+
+Tidying to businesses in Manhattan
+
+```{r}
+rest_inspec =
+  rest_inspec %>% 
+  janitor::clean_names() %>%
+  drop_na()
+```
+
+Scatterplot of latitude vs. longitude, colored by grade
+
+```{r}
+rest_inspec %>%
+  mutate(
+    label = str_c("Borough: ", boro, "\nScore: ", score)
+  ) %>% 
+  plot_ly(
+    x = ~latitude, y = ~longitude, color = ~grade, text = ~label,
+    type = "scatter", mode = "markers", alpha = 0.5
+  )
+```
+
