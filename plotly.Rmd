@@ -42,6 +42,9 @@ rest_inspec %>%
   filter(
     boro == "Manhattan",
     grade == "P"
+  ) %>%
+  mutate(
+    dba = fct_reorder(dba, score)
   ) %>% 
   plot_ly(
     y = ~score, color = ~dba,
